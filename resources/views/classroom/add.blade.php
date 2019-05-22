@@ -24,10 +24,8 @@
 				<a href="{{route('showStudent',['id' => $std->id])}}" style="text-decoration: none;">{{$std->name}} </a> <a style="text-decoration: none; color: red;" href="{{route('handleDeleteStudent',['id' => $std->id]) }}">delete</a>
 				</td>
 			@endforeach
-		
-			         
-			
 		</tr>
 		@endforeach
 	</table>
+	Merci
 </div>
